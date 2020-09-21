@@ -1,0 +1,16 @@
+﻿<Window x:Class="Pra.HerhalingEnums.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.HerhalingEnums.WPF"
+        mc:Ignorable="d"
+        Title="Herhaling enums" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnEnum1" Content="Toon de woorden uit de enumeratie" HorizontalAlignment="Left" Height="39" Margin="24,25,0,0" VerticalAlignment="Top" Width="342" Click="BtnEnum1_Click"/>
+        <ListBox x:Name="lstDisplay" HorizontalAlignment="Left" Height="384" Margin="485,25,0,0" VerticalAlignment="Top" Width="297"/>
+        <Button x:Name="btnEnum2" Content="Toon de waarden uit de enumeratie" HorizontalAlignment="Left" Height="39" Margin="24,69,0,0" VerticalAlignment="Top" Width="342" Click="BtnEnum2_Click"/>
+        <Button x:Name="btnEnum3" Content="Enumeratie met afwijkende waarden" HorizontalAlignment="Left" Height="39" Margin="24,113,0,0" VerticalAlignment="Top" Width="342" Click="BtnEnum3_Click"/>
+
+    </Grid>
+</Window>
